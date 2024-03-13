@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Web</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Kalam:wght@300;400;700&family=Wellfleet&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f997e33232.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header id="encabezado">
+            <a href="#" id="logo"><i class="fa-solid fa-paw"></i></a>
+            <nav class="navbar">
+                <input type="checkbox" id="check">
+                <label for="check"class=checkbtn>
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="menu">
+                    <li><a href="navli" href="#">Inicio</a></li>
+                    <li><a href="navli" href="#seccion-principal">Acerca de mí</a></li>
+                    <li><a href="navli" href="#trabajos">Trabajos</a></li>
+                    <li><a href="navli" href="#">Servicios</a></li>
+                    <li><a href="navli" href="#trabajos">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2 id="acerca-de-title">Acerca de mí</h2>
+                    <p>¡Bienvenido a mi página! Aquí, aprenderás más sobre mi.</p>
+                    <p id="parrafo2">Me llamo Melanie, aunque me gusta que me digan Mel. Vivo en la ciudad de Huaraz. Mi deporte favorito es el
+                        volleyball, soy amante de los perritos y me encanta la CocaCola.</p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="img/Mel 2.jpg" alt="imagen portada">
+                </div>
+            </section>
+            <section class="seccion-2">
+                <img src="img/Mel y Kira.jpg" alt="Imagen de carrusel">
+            </section>
+            <section id="trabajos" class="trabajo-container">
+                <h3 class="title-section">Trabajos</h3>
+                <div class="trabajos">
+                    <div class="trabajo-item">
+                        <img src="img/A.jpg" alt="imagen A"/>
+                        <h2>Título 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ut nostrum. Similique laborum odit earum sint, aliquid deleniti? Quasi animi nobis mollitia voluptatem quod minus est ea cum quos blanditiis.</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                    <div class="trabajo-item">
+                        <img src="img/B.jpg" alt="imagen B"/>
+                        <h2>Título 2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ut nostrum. Similique laborum odit earum sint, aliquid deleniti? Quasi animi nobis mollitia voluptatem quod minus est ea cum quos blanditiis.</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                    <div class="trabajo-item">
+                        <img src="img/C.jpg" alt="imagen C"/>
+                        <h2>Título 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ut nostrum. Similique laborum odit earum sint, aliquid deleniti? Quasi animi nobis mollitia voluptatem quod minus est ea cum quos blanditiis.</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                </div>
+            </section>
+            <section id="contacto" class="contacto-container">
+                <div class="form-header">
+                    <h1 class="title-section">Contacto</h1>
+                    <p><em>¡Esperamos tu consulta!</em></p>
+                    <form action="" method="get" class="formulario" id="form">
+                        <div class="form-row">
+                            <label for="nombre">Nombre</label>
+                            <input id="nombre" name="nombre" type="text" />
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Email</label>
+                            <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            placeholder="ejemplo@gmail.com"
+                            required/>
+                        </div>
+                        <div class="form-row">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje"></textarea>
+                        </div>
+                        <div class="form-row">
+                            <button id="submit" type="submit">Enviar</button>
+                        </div>
+                        <div class="form-row oculto" id="alerta-container">
+                            <p class="alertas" id="alertas"></p>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer id="redes-sociales">
+            <div id="footer">
+                <h3 class="title-section">Redes Sociales</h3>
+                <nav>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/"><i class="fa-solid fa-paw"></i>Instagram</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa-solid fa-paw"></i>Facebook</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.whatsapp.com/?lang=es_LA"><i class="fa-solid fa-paw"></i>Whatsapp</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <a id="fixed" target="_blank" href="https://www.youtube.com/"><i class="fa-solid fa-paw"></i></a>
+    </div>
+</body>
+</html>
