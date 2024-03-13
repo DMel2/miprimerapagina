@@ -77,6 +77,9 @@ header a i {
     display: none;
 }
 
+.greeting {
+    display: flex;
+}
 /* MEDIA QUERIES */
 
 /* Estilos para pantallas más pequeñas (hasta 768px) */
