@@ -189,8 +189,20 @@ footer {
     color: #fff;
 }
 
+#redes-sociales {
+    justify-content: center;
+    text-align: center;
+}
+
 #footer {
     padding: 1em;
+}
+
+#footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
 }
 
 #footer nav ul {
